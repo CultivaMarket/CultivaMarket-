@@ -1,0 +1,140 @@
+
+body{
+    background-color: rgb(94, 209, 84);
+    background-image: url(/images/Foto-fondo.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  
+  } 
+  /* .button-prueba{
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid blue;
+    border-left: 50px solid transparent;
+    background-color: #c7a9a9;
+  
+  
+  } */
+
+  header{
+    background-color: antiquewhite;
+  }
+  .logo-cultivaMarket{
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .section-registro-cuenta{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .title-create-your-account{
+    display: flex;
+    align-items: flex-start;
+    width: 340px;
+    color: #fff;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #1f3204;
+  }
+  
+  .form-container {
+      width: 400px;
+      height: 550px;
+      background-color: #ffffff7c;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-radius: 10px;
+      box-sizing: border-box;
+      padding: 20px 30px;
+      
+    }
+    
+    .title {
+      text-align: center;
+      margin: 10px 0 30px 0;
+      font-size: 32px;
+      font-weight: 800;
+      color:#284105;
+      
+  
+  
+    }
+    
+    .form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      margin-bottom: 15px;
+    }
+    
+    .input {
+      border-radius: 20px;
+      border: 1px solid #c0c0c0;
+      box-sizing: border-box;
+      height: 40px;
+      padding: 12px 15px;
+    }
+    
+    .page-link {
+      text-decoration: underline;
+      margin: 0;
+      text-align: end;
+      color: #747474;
+      text-decoration-color: #747474;
+    }
+    
+    .page-link-label {
+      cursor: pointer;
+  
+      font-size: 9px;
+      font-weight: 700;
+    }
+  
+  .form-btn{
+  
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #c0c0c0;
+    color:#63a908;
+    background-color: #1f3204 ;
+    font-size: 20px;
+  }
+  .sign-up-label{
+   display: flex;
+   justify-content: center;
+    font-size: 15px;
+  }
+  
+  .sign-up-link{
+    margin-left: 30px;
+  }
+  
+  .div-button-logo-google{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content:space-evenly;
+    align-items: center;
+  }
+  .button-logo-google{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 45px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+    margin-top: 30px;
+  }
+  
+  .img-logo-gogle{
+    height: 30px;
+  }
+  .img-logo-facebook{
+    height: 30px;
+  }
+  

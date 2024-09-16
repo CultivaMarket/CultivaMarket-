@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/registro.css" />
+    <title>CultivaMarket - Registro</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="/images/CultivaMarket-logo-solo.jpg"
+        alt="logo_CultivaMarket"
+        class="logo-cultivaMarket"
+      />
+    </header>
+    <section class="section-registro-cuenta">
+      <div class="title-create-your-account">
+        <h1 class="title-create-your-account">Registra tu cuenta ...</h1>
+      </div>
+
+      <div class="form-container">
+        <p class="title">
+          Bienvenidos a <br />
+          CultivaMarket
+        </p>
+
+        <form class="form">
+          <input
+            type="text"
+            class="input"
+            placeholder="Nombre completo"
+            required
+          />
+          <input type="email" class="input" placeholder="Correo" required />
+          <input
+            type="password"
+            class="input"
+            placeholder="Contraseña"
+            required
+          />
+
+          <!-- Campo para elegir el rol -->
+          <select class="input" required>
+            <option value="" disabled selected>Selecciona tu rol</option>
+            <option value="cliente">Cliente</option>
+            <option value="vendedor">Vendedor</option>
+            <option value="admin">Administrador</option>
+          </select>
+
+          <button class="form-btn" type="submit">Crear cuenta</button>
+        </form>
+
+        <p class="sign-up-label">
+          ¿Ya tienes una cuenta? <span class="sign-up-link">Inicia sesión</span>
+        </p>
+
+        <div class="div-button-logo-google">
+          <button class="button-logo-google">
+            <img
+              src="/images/images-login/icons8-logo-de-google-48.png"
+              alt="logo_google"
+              class="img-logo-google"
+            />
+            <p>Google</p>
+          </button>
+
+          <button class="button-logo-google">
+            <img
+              src="/images/images-login/icons8-facebook-48.png"
+              alt="logo_facebook"
+              class="img-logo-facebook"
+            />
+            <p>Facebook</p>
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

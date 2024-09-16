@@ -1,0 +1,42 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.ensayo-header{
+    background-color: bisque;
+    height: 100px;
+}
+
+
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.profile-info input {
+    width: 90%;
+    height: 30px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color:#35642ed0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    
+}

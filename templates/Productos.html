@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CultivaMarket</title>
+    <link rel="stylesheet" href="/style/productos.css" />
+  </head>
+  <body>
+    <header class="header-principal">
+      <div class="logo">
+        <img 
+          class="img-logo"
+          src="/images/CultivaMarket-logo-solo.jpg"
+          alt="Logo CultivaMarket"
+        />
+      </div>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Categorías</a></li>
+          <li><a href="#">Ofertas</a></li>
+          <li><a href="#">Novedades</a></li>
+        </ul>
+      </nav>
+
+      <div class="search-bar">
+        <input type="text" id="filtro-1" placeholder="Buscar productos..." />
+      </div>
+
+      <!-- Sección de Login/Registro -->
+      <div class="options_Login_Registro">
+        <a href="/templates/login.html" class="login-btn">Login</a>
+        <a href="/templates/registro.html" class="register-btn">Registro</a>
+      </div>
+
+      <!-- iconos de carrito de compras y favoritos -->
+      <div class="header-icons">
+        <a href="#" class="icon"
+          ><img src="/images/img-iconos/favorito.png" alt="Lista de deseos"
+        /></a>
+        <a href="templates/carrito.html"
+          ><img
+            src="/images/img-iconos/carrito-de-compras.png"
+            class="img-card"
+            alt="Carrito"
+        /></a>
+
+        <!-- Menú Hamburguesa -->
+        <div class="menu-hamburguesa">
+          <img
+            src="/images/img-iconos/menu_icono.png"
+            alt="Menú"
+            class="hamburguesa-icon"
+            id="menuToggle"
+          />
+        </div>
+
+        <!-- Opciones del menú hamburguesa -->
+        <div class="menu-opciones" id="menuOpciones">
+          <ul>
+            <li><a href="/templates/perfil_usuario.html">Perfil</a></li>
+            <li><a href="#">Configuración</a></li>
+            <li><a href="#" id="cerrarSesion">Cerrar sesión</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- ------- -->
+
+    <header class="header-2">
+      <h2 class="h2-">Productos</h2>
+      <div>
+        <input
+          class="buscador-2"
+          type="text"
+          id="filterInput-2"
+          placeholder="Filtra por nombre..."
+        />
+      </div>
+    </header>
+    <section class="section-produtos">
+      <ul id="itemsList">
+        <div class="container-product">
+          <li class="li-product">
+            <div class="card">
+              <img
+                class="img-productos"
+                src="images/Productos_img/img-fresa.jfif"
+                alt="img-fresa"
+              />
+              <div class="boton">
+                <button class="button-ver-detalles">Consultar</button>
+              </div>
+              <div class="card__content">
+                <p class="card__title">Cultivo de fresa</p>
+                <p class="card__description">
+                  Un cultivo de fresa es el proceso de plantar y cuidar fresas,
+                  para producir frutos rojos y dulces, gestionando aspectos como
+                  suelo, riego y plagas. <a href="#">... ver mas</a>
+                </p>
+              </div>
+            </div>
+          </li>
+        </div>
+      </ul>
+    </section>
+
+    <footer>
+      <div class="gallery">
+        <div class="gallery-container">
+          <a href="#enlace1"
+            ><img
+              src="/images/img_galeria_de_productos/maiz-mazorcas.avif"
+              alt="Imagen 1"
+          /></a>
+          <a href="#enlace2"
+            ><img
+              src="/images/img_galeria_de_productos/Frijol.png"
+              alt="Imagen 2"
+          /></a>
+          <a href="#enlace3"
+            ><img
+              src="/images/img_galeria_de_productos/pepinos.jpg"
+              alt="Imagen 3"
+          /></a>
+          <a href="#enlace4"
+            ><img
+              src="/images/img_galeria_de_productos/manzanas.png"
+              alt="Imagen 4"
+          /></a>
+          <a href="#enlace5"
+            ><img
+              src="/images/img_galeria_de_productos/sandia-o-melon-de-agua.jpg"
+              alt="Imagen 5"
+          /></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer elegante -->
+    <footer class="footer-elegante">
+      <div class="footer-contenido">
+        <!-- Sección Nosotros -->
+        <div class="footer-seccion">
+          <h3>Sobre Nosotros</h3>
+          <p>
+            Somos una tienda en línea dedicada a proporcionar los mejores
+            productos agrícolas y de cultivo. Nos esforzamos por ofrecer
+            calidad, confianza y soluciones sostenibles para todos nuestros
+            clientes.
+          </p>
+        </div>
+
+        <!-- Sección Contáctanos -->
+        <div class="footer-seccion">
+          <h3>Contáctanos</h3>
+          <p>
+            Email:
+            <a href="mailto:cultivamarket3@gmail.com"
+              >cultivamarket3@gmail.com</a
+            >
+          </p>
+          <p>
+            Teléfonos: +57 3104710120 <br />
+            + 57 3023180078
+          </p>
+          <p>Dirección: Calle 123, Ciudad, País</p>
+        </div>
+
+        <!-- Sección Redes Sociales -->
+        <div class="footer-seccion">
+          <h3>Síguenos</h3>
+          <div class="redes-sociales">
+            <a href="https://www.facebook.com/" class="social-icon"
+              ><img src="/images/img-iconos/facebook.png" alt="Facebook"
+            /></a>
+            <!-- <a href="#" class="social-icon"><img src="images/twitter.png" alt="Twitter"></a> -->
+            <a href="https://www.instagram.com/" class="social-icon"
+              ><img src="/images/img-iconos/instagram.png" alt="Instagram"
+            /></a>
+            <!-- <a href="#" class="social-icon"><img src="images/linkedin.png" alt="LinkedIn"></a> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <p>&copy; 2024 CultivaMarket. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <!-- <section class="section-carga">
+   <div class="loading-wave">
+       <div class="loading-bar"></div>
+       <div class="loading-bar"></div>
+       <div class="loading-bar"></div>
+       <div class="loading-bar"></div>
+     </div>
+</section> -->
+  </body>
+  <script src="/js/productos.js"></script>
+</html>
