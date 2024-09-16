@@ -5,7 +5,7 @@
     font-family: Arial, sans-serif;
 }
 body{
-  background-color: #ccc;
+  background-color: #1f5c2c;
 }
 
 
@@ -13,9 +13,9 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f8f8f8;
+  background-color: #1b4c27;
   padding: 10px 20px;
-  border-bottom: 2px solid #e0e0e0;
+  border-bottom: 2px solid #000000;
 }
 
 .img-logo {
@@ -36,7 +36,7 @@ body{
 
 .nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
   font-size: 16px;
 }
 
@@ -99,7 +99,9 @@ body{
 /* ------------ */
 .header-2{
   display: flex;
+  color: #fff;
   justify-content: space-around;
+  margin: 0%;
 }
 
 .loading-wave {
@@ -114,7 +116,7 @@ body{
     width: 20px;
     height: 10px;
     margin: 0 5px;
-    background-color: #39be4a;
+    background-color: #00ff26;
     border-radius: 5px;
     animation: loading-wave-animation 1s ease-in-out infinite;
   }
@@ -206,7 +208,7 @@ body{
 }
 
 .options_Login_Registro a:hover {
-  background-color: #C1D9BF;
+  background-color: #15ff00;
 }
 
   /* --------------PRODUCTOS CULTIVA MARKET----- */
@@ -320,7 +322,7 @@ body{
     justify-content:center;
     align-items: center;
     height: 160px;
-    background-color: #ccc;
+    background-color: #1b4c27;
     transition: transform 0.0s ease;
 }
 .gallery a {
@@ -341,7 +343,7 @@ body{
 
 /* Estilo para el footer elegante */
 .footer-elegante {
-  background-color: #2f5d34;
+  background-color: #0a2912;
   color: #f8f8f8;
   padding: 40px 20px;
   text-align: center;
@@ -402,7 +404,7 @@ body{
 
 /* Estilo para la parte de copyright */
 .footer-copyright {
-  background-color: #2a4d2c;
+  background-color: #0a2912;
   padding: 20px;
   font-size: 14px;
   color: #b9b9b9;
